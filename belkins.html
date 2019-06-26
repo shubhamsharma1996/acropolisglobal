@@ -4,19 +4,42 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>GETTING STARTED WITH BRACKETS</title>
-        <link rel="stylesheet" href="belkins.css">
+        <link rel="stylesheet" href="mouse.css">
     </head>
     <body>
-         <div class="topnav">
+        <header class="header">
+         <div class="container">
                <img class="logo" src="https://belkins.io/wp-content/uploads/2019/05/logo-image.svg">
-                 <a class="button button_orange" onclick="openPopUpCalendly()" href="button">Book time</a>
-                 <a class="active" href="Blog">Blog</a>
-                 <a href="#Company">Company</a>
-                 <a href="#Solution">Solution</a>
-                 <a href="#Home">Home</a>
-                 
-             
-         </div>
+                <div class="header__block">
+		         <div class="nav__item">
+                  <a href="/" class="nav__item-title">Home</a>
+                 </div>
+        <nav class="nav">
+                    <div class="nav__item">
+            <div class="nav__item-title">Solutions</div>
+            <div class="nav__submenu">
+                            <a class="nav__item-link" href="https://belkins.io/database-research/">Database research</a>
+                            <a class="nav__item-link" href="https://belkins.io/outreach/">Outreach</a>
+                            <a class="nav__item-link" href="https://belkins.io/appointment-setting/">Appointment setting</a>
+                          </div>
+          </div>
+                    <div class="nav__item">
+            <div class="nav__item-title">Company</div>
+            <div class="nav__submenu">
+                            <a class="nav__item-link" href="https://clutch.co/profile/belkins">Success stories</a>
+                            <a class="nav__item-link" href="https://belkins.io/career/">Career</a>
+                            <a class="nav__item-link" href="https://belkins.io/contact-us/">Contact us</a>
+                            <a class="nav__item-link" href="https://belkins.io/about-us/">About us</a>
+                          </div>
+          </div>
+          		  <div class="nav__item">
+            <a href="/blog/" class="nav__item-title">Blog</a>
+          </div>
+        </nav>
+           <a class="button button_orange" onclick="openPopUpCalendly()">Book time</a>
+        </div>
+        </div>
+        </header>
         <div class="column">
             <h1 id="reach">REACH</h1><br>
             <p>YOUR PROSPECTS</p><br>
